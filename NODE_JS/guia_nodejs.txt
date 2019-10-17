@@ -1,0 +1,33 @@
+//============================ESSENCIAL========================================
+// versao
+npm --version
+node --version
+
+//iniciar aplicativo node
+npm init -y
+
+// instalar pacote básico para trabalhar com http
+npm install http express debug --save
+
+//iniciar Servidor
+node server
+node .\server.js
+
+//===========================MUITO=UTEIS========================================
+// app ajuda desenvolver, reseta servidor se tiver alguma modificacao
+npm install -g nodemon
+npm install nodemon --save-dev
+nodemon .\server.js
+
+//converte o corpo do POST em json
+npm install body-parser --save
+
+
+//MongoDB lib de conexao, mongo precisa esta instalado e startado
+npm install -g  mongoose --save
+
+//============================UTEIS========================================
+
+// instala todas as dependencia do package.json de que nao foram instaldo
+//usando quando copia um projeot do github e vem sem os modulos
+npm install
